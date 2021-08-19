@@ -55,7 +55,7 @@ class Reservation {
   set customerId(val) {
     if(this._customerId && this._customerId !== val) 
       throw new Error("Cannot change customer ID");
-      this._customerId = val;
+    this._customerId = val;
   }
 
   get customerId() {
